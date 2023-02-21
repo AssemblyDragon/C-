@@ -17,7 +17,13 @@ void bubbleSort(int array[], int arrayLength){
 }
 
 int main(){
-    int a[5] = {5, 4, 6, 2, 1}, n = 5;
+    int n;
+    cout << "Enter n : ";
+    cin >> n;
+    int a[n];
+    cout << "Enter elements : ";
+    for (int i=0; i<n; i++){
+        cin >> a[i];
     bubbleSort(a, n);
     return 0;
 }
