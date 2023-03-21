@@ -43,12 +43,63 @@ void doubleLoop(int a[], const int N){
     }
 }
 
+int cumulativeSum(int a[], const int n){
+    int b[n+1];
+    b[0] = 0;
+    for (int i=1; i<=n; i++){
+        b[i] = b[i-1]+a[i-1];
+    }
+    int max = INT_MIN;
+    for (int i=1; i<=n; i++){
+        for (int j=0; j<i; j++){
+            if (b[i] - b[j] > max){
+                max = b[i] - b[j];
+            }
+        }
+    }
+    
+    if (max == INT_MIN){
+        cout << "How is this even possible!" << endl;
+    }
+    else{
+        cout << max << endl;
+    }
+}
 
+int kadane(int a[], const int n){
+    int b[n+1];
+    b[0] = 0;
+    for (int i=1; i<=n; i++){
+        if (b[i-1] >= 0){
+        b[i] = b[i-1] + a[i-1];
+        }
+        else{
+            b[i] = a[i-1];
+        }
+    }
+
+    int max = INT_MIN;
+    
+    for (int i=1; i<=n; i++){
+        if (b[i] > max){
+            max = b[i];
+        }
+    }
+
+    if (max == INT_MIN){
+        cout << "How is this even possible!" << endl;
+    }
+    else{
+        cout << max << endl;
+    }
+}
 
 int main(){
-    const int N = 5;
-    int a[N] = {1, -4, 3, 2, 1};
+    const int N = 4;
+    int a[N] = {-1, 3, 2, 5};
     bruteForce(a, N);
     doubleLoop(a, N);
+    cumulativeSum(a, N);
+    kadane(a, N);
     return 0;
 }
