@@ -9,6 +9,7 @@ int main(){
     int **q;
     q = &p;
     cout << (int) q << endl << (int) *q << endl;
+    cout << "Hexademical form of q : " << q << endl;
     cout << **q << endl;
     
 
