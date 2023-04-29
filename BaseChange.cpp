@@ -2,6 +2,7 @@
 #include<climits>
 using namespace std;
 
+
 int pow(int n1, int n2){
     if (n2 == 0){
         return 1;
@@ -89,23 +90,7 @@ int main(){
     convert(101101, 2, 16);
     
     
-    /*
-    int n;
-    cout << "Enter No of elements in array : ";
-    cin >> n;
-    int array[n];
-    for (int i=0; i<n; i++){
-        cout << "Enter Element : ";
-        cin >> array[i];
-    }
-    for (int i=0; i<n; i++){
-        cout << i << " " << array[i] << endl;
-    }
-
-    int el;
-    cout << "Enter element to find : ";
-    cin >> el;
-    */
+    
     
     return 0;
 
