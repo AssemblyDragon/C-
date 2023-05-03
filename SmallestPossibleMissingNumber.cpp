@@ -1,3 +1,5 @@
+// smallest possible missing number from a sequence of numbers
+
 #include <iostream>
 #include "PrintArray.cpp"
 #include <climits>
