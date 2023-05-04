@@ -1,3 +1,5 @@
+// all sub-arrays for a given array
+
 #include <iostream>
 using namespace std;
 
