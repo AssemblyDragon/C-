@@ -1,3 +1,5 @@
+// Sorting an array in ascending order using bubble sort
+
 #include <iostream>
 #include "PrintArray.cpp"
 using namespace std;
