@@ -1,3 +1,5 @@
+// finding the first reoccuring number in a array
+
 #include <iostream>
 #include <math.h>
 #include <climits>
