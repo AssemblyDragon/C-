@@ -1,3 +1,5 @@
+// Sorting an array of integers in ascending order usinh insetion sort
+
 #include <iostream>
 #include "PrintArray.cpp"
 using namespace std;
