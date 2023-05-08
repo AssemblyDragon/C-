@@ -1,3 +1,5 @@
+// finding an element from an array using linear search
+
 #include <iostream>
 using namespace std;
 
