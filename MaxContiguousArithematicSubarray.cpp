@@ -1,3 +1,5 @@
+// Finding the maximum sum of a continous subarray
+
 #include <iostream>
 using namespace std;
 
