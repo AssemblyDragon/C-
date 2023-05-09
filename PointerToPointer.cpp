@@ -1,3 +1,5 @@
+// testing pointers to pointers
+
 #include<iostream>
 using namespace std;
 
