@@ -1,3 +1,5 @@
+// finding a subarray from a given array having sum of elements equal to the sum given by user
+
 #include <iostream>
 using namespace std;
 
