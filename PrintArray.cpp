@@ -1,3 +1,5 @@
+// Printing array
+
 #include <iostream>
 using namespace std;
 
