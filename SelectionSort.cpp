@@ -1,6 +1,9 @@
+// sorting an array by selection sort
+
 #include <iostream>
 #include <climits>
 using namespac
+
 e std;
 
 void printArray(int array[], int arrayLength){
