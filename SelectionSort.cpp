@@ -1,6 +1,7 @@
 #include <iostream>
 #include <climits>
-using namespace std;
+using namespac
+e std;
 
 void printArray(int array[], int arrayLength){
     cout << "Array" << endl;
