@@ -2,9 +2,7 @@
 
 #include <iostream>
 #include <climits>
-using namespac
-
-e std;
+using namespace std;
 
 void printArray(int array[], int arrayLength){
     cout << "Array" << endl;
