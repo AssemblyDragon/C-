@@ -1,4 +1,4 @@
-// Printing array
+// Function that prints the array to the console
 
 #include <iostream>
 using namespace std;
