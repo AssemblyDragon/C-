@@ -1,3 +1,5 @@
+// Record Breaking Day Problem in Google Kickstart
+
 #include <iostream>
 using namespace std;
 
