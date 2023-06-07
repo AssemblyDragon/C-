@@ -19,7 +19,9 @@ void insertionSort(int a[], int n){
 }
 
 int main(){
+
     int a[6] = {6, 1, 3, 9, 2, 6}, n = 6;
     insertionSort(a, n);
+    
     return 0;
 }
