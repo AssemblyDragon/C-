@@ -9,7 +9,7 @@ int linearSearch(int array[], int arrayLength, int element){
             return i;
         }
     }
-    return -1;
+    return (-1);
 }
 
 int main(){
