@@ -1,3 +1,5 @@
+// Using Template Function
+
 #include<iostream>
 using namespace std;
 template <class T>
